@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+.footer {
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 65px;
+  width: 90%;
+  border-radius: 20px;
+  background: rgba(21, 22, 25, 0.7);
+}
+
+#footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#footer_love {
+  color: #fb3640;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 0 20px #fb3640;
+}
+
+.footer p {
+  color: #f8f8f2;
+}
+
+#x11 {
+  margin-left: 10px;
+}
+
+#footer_github {
+  color: #bd93f9;
+  text-shadow: 0 0 20px #bd93f9;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: rgb(85, 26, 139);
+}
+
+a:link,
+a:visited {
+  color: rgba(red, green, blue, alpha);
+  text-decoration: none;
+}
+@media (max-width: 700px) {
+  div {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.box {
+  width: 55px;
+  height: 58px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0.6em;
+  transition: all 0.4s;
+}
+
+.box:hover {
+  width: 160px;
+  background: rgb(85, 26, 139);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 50px #b315917c;
+}
+
+.box:nth-child(2):hover {
+  background: rgb(85, 26, 139);
+  box-shadow: 0 0 50px rgb(85, 26, 139);
+}
+
+.box:nth-child(3):hover {
+  width: 130px;
+  background: rgb(85, 26, 139);
+  box-shadow: 0 0 50px rgb(85, 26, 139);
+}
+
+.box:nth-child(4):hover {
+  background: rgb(85, 26, 139);
+  box-shadow: 0 0 50px rgb(85, 26, 139);
+}
+
+#insta {
+  transform: translate(60px);
+}
+#face {
+  transform: translate(60px);
+}
+#wp {
+  transform: translate(60px);
+}
+#twitter {
+  transform: translate(60px);
+}
+.box .icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: all 0.4s;
+}
+
+.instagram {
+  background: rgb(85, 26, 139);
+}
+
+.facebook {
+  background: rgb(85, 26, 139);
+}
+
+.twitter {
+  background: rgb(85, 26, 139);
+}
+
+.whatsapp {
+  background: rgb(85, 26, 139);
+}
+
+.box:hover .icon {
+  background: white;
+  box-shadow: 0 0 20px rgb(85, 26, 139);
+  color: rgb(85, 26, 139);
+}
+
+.repo {
+  flex: 1 1 25%;
+  width: 400px;
+
+  display: inline-block;
+  margin: 35px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #60648f;
+  border-radius: 10px;
+  height: auto;
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #f8f8f2;
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background: linear-gradient(160deg, #30547e, rgba(255, 255, 255, 0.2) 99%);
+}
+.repo2 {
+  display: inline-block;
+  margin: 35px;
+
+  background-color: #60648f;
+  border-radius: 10px;
+  height: auto;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #f8f8f2;
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background: linear-gradient(160deg, #30547e, rgba(255, 255, 255, 0.2) 99%);
+}
+
+.repo:hover {
+  transition-delay: 0.2s;
+  transform: scale(1.1) translateY(-10px);
+  -webkit-box-shadow: 0px 10px 21px -12px rgb(0 0 0 / 75%);
+  box-shadow: 0px 50px 50px -12px rgb(0 0 0 / 75%);
+}
+
+#random {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+}
+
+@font-face {
+  src: url(fonts/TESLA.ttf);
+  font-family: tesla;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left center right";
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 52px;
+  width: 100%;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* Left Nav Controls */
+
+.header .logo-left {
+  grid-area: left;
+  padding: 0;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.header .logo-left a {
+  font-family: tesla;
+  font-weight: lighter;
+  font-size: 1rem;
+  letter-spacing: 0.4rem;
+}
+
+/* Nav Center Controls */
+
+.nav-center {
+  grid-area: center;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-center li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+/* Right Div Controls */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(85, 26, 139);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(85, 26, 139);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(85, 26, 139);
+}
